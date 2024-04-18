@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+  /* height: 120vh;
+  width: 120vw;  */ 
+  padding: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  height: 400px;
+  width: auto;
+  text-align: center;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  padding: 20px
+}
+
+.btn-div{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.display-section h3{
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.display-section h4{
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
